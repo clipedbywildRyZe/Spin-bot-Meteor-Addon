@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "spin-addon",
+  "version": "1.0.0",
+  "name": "Spin Addon",
+  "description": "Dreht dich die ganze Zeit.",
+  "authors": ["Du"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.example.addon.SpinAddon"]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "meteor-client": "*"
+  }
+}
